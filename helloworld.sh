@@ -1,5 +1,8 @@
 #!/bin/bash
 
-echo "Hello World"
+for (( I=0; $I<6; I++ ))
+do
+  echo "Hello World"
+done
 
 exit 0
